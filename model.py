@@ -1,10 +1,8 @@
 from dataclasses import dataclass
 from typing import Optional
 
-
-
 @dataclass
 class Item:
-    descricao : str
-    quantidade : int
+    description : str
+    amount : int
     id: Optional[int] = None
