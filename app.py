@@ -37,3 +37,7 @@ else:
         st.markdown(f"**Descrição**: {item.description}")
         st.markdown(f"**Quantidade**: {item.amount}")
         st.divider()
+
+# Dupla do Trabalho:
+# João Rafael Sobrinho Diogenes Florêncio - 20241011110002
+# Victor Miguel Amorim do Nascimento - 20241011110003
