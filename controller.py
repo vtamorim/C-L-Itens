@@ -25,6 +25,7 @@ class ItemController:
             return
         if amount < 0:
             st.error("Quantidade do Item não pode ser menor que 0.")
+            return 
 
         new_item = Item(description=description, amount=amount)
 
